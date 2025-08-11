@@ -25,9 +25,9 @@ int main(int argc, char *argv[]) {
         }
 
         if (isspace(c)) {
-            in_word = 0; // Salimos de una palabra
+            in_word = 0; // Salir de una palabra
         } else if (!in_word) {
-            in_word = 1; // Entramos a una palabra nueva
+            in_word = 1; // Entrar a una palabra nueva
             words++;
         }
     }
